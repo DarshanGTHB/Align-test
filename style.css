@@ -12795,8 +12795,9 @@ blockquote {
   }
 
   .left-card-wrapper, .right-card-wrapper {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px !important;
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
   }
 
   .close-menu-button-2.w--open {
