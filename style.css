@@ -2,6 +2,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -3781,6 +3782,7 @@ blockquote {
   align-items: flex-start;
   width: 57%;
   display: flex;
+  flex-direction: column;
 }
 
 .footer-brand {
@@ -5501,7 +5503,7 @@ blockquote {
 
 .link-block-copy {
   border-radius: 25px;
-  /* height: 330px; */
+  height: 240px;
   overflow: hidden;
 }
 
@@ -12764,6 +12766,7 @@ blockquote {
 
   .collect-event-wrapper {
     width: 100%;
+    height: 600px;
   }
 
   .collec-heading.white-text {
@@ -13400,7 +13403,7 @@ blockquote {
   flex-shrink: 0;
   min-width: 300px !important ;
   width: 300px;
-  height: 460px;
+  height: 600px;
 }
 
 .collection-list-3::-webkit-scrollbar {
@@ -13413,33 +13416,40 @@ blockquote {
 }
 
 
-#left-scroll-btn {
-  transform: rotate(180deg);
-}
 
 #left-scroll-btn {
   width: 30px;
   height: 30px;
   left: 10px;
-  opacity: 0.7;
+  opacity: 0.4;
   background-color: gray;
   border-radius: 50%;
   position: absolute;
   top: 10px;
   z-index: 10;
+  transition: 0.5s;
 }
 
 #right-scroll-btn {
   width: 30px;
   height: 30px;
-  opacity: 0.7;
+  opacity: 0.4;
   background-color: gray;
   border-radius: 50%;
   position: absolute;
   top: 10px;
   right: 10px;
   z-index: 10;
+  transition: 0.5s;
 }
+
+
+#right-scroll-btn:hover,
+#left-scroll-btn:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
 
 
 .dot-container {
