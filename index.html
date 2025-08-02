@@ -66,6 +66,7 @@
 
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
 
     
@@ -87,10 +88,10 @@
         <div class="nav-menu-wrapper">
           <a href="/" aria-current="page" class="brand w-nav-brand w--current"
             ><img
-              src="logov3.png"
+              src="logo.svg"
               loading="lazy"
               alt=""
-              height="60"
+              height="40"
               class="navbar-logo"
           /></a>
           <nav role="navigation" class="nav-menu w-nav-menu">
@@ -100,7 +101,7 @@
                 aria-current="page"
                 class="brand-tablet w-nav-brand w--current"
                 ><img
-                  src="logov3.png"
+                  src="logo.svg"
                   loading="lazy"
                   alt=""
                   height="60"
@@ -114,6 +115,7 @@
                 />
               </div>
             </div>
+            
             <div class="menu-wrap">
               <div
                 data-hover="true"
@@ -145,20 +147,23 @@
             </div>
           </nav>
           <div class="menu-button w-nav-button" id="image-burger">
-            <img
+            <!-- <img
               src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/632b1c5049ca5c756c44f062_burger%20(2).svg"
               loading="lazy"
               alt=""
               height="16"
               class="image-burger"
 
-            />
+            /> -->
+            <i class="fa-solid fa-bars"></i>
           </div>
           <div class="navbar-right-wrapper">
             <a href="#form-sec" class="navbar-button">Contact Us</a>
           </div>
         </div>
       </div>
+
+
 
     <div
   class="w-nav-overlay"
@@ -168,14 +173,14 @@
     height: 100vh;
     width: 320px;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0px;
+    right: 0;
     z-index: 9999;
     background: white;
 
     /* TRANSITION setup */
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(100%);
     transition: opacity 0.3s ease, transform 0.3s ease;
 
     /* Start hidden */
@@ -186,12 +191,12 @@
 
     <nav role="navigation" class="nav-menu w-nav-menu" style="transition: all, transform 400ms; transform: translateX(0px) translateY(0px); height: 10978px;" data-nav-menu-open="">
         <div class="tablet-menu">
+          <div class="close-menu-button-2 w-nav-button w--open" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="true" fdprocessedid="tsxo9e">
+              <img src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/6347b124223d10fd6c6557a9_close.png" loading="lazy" alt="" class="nav-close-icon">
+          </div>
             <a href="/" aria-current="page" class="brand-tablet w-nav-brand" aria-label="home">
-                <img src="logov3.png" loading="lazy" alt="" height="60">
+                <img src="logo.svg" loading="lazy" alt="" height="40">
             </a>
-            <div class="close-menu-button-2 w-nav-button w--open" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="true" fdprocessedid="tsxo9e">
-                <img src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/6347b124223d10fd6c6557a9_close.png" loading="lazy" alt="" class="nav-close-icon">
-            </div>
         </div>
         <div class="menu-wrap">
             <div data-hover="true" data-delay="0" data-w-id="6050afa1-dfc3-b3f0-13fb-1d2ac1103ba6" class="navbar-dropdown w-dropdown w--nav-dropdown-open" style="max-width: 1200px;">
@@ -288,10 +293,10 @@
                 />
                 <p class="card-title">Child Learns</p>
               </div> -->
-              <div class="large-white-circle"></div>
-              <div class="banner-large-blue-circle"></div>
+              <!-- <div class="large-white-circle"></div> -->
+              <!-- <div class="banner-large-blue-circle"></div>
               <div class="banner-medim-blue-circle"></div>
-              <div class="banner-small-white-circle"></div>
+              <div class="banner-small-white-circle"></div> -->
             </div>
             <img
               class="home-banner-image"
@@ -366,7 +371,7 @@
           <div class="cards-wrapper">
             <div class="card-wrap">
               <img
-                src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/632b01ca79ecfda9e10826fd_9443147_young_man_young%20man_cool%20boy_happy%20boy_icon%201%20(3)%201.png"
+                src="Engagement illusion.gif"
                 loading="lazy"
                 alt=""
                 class="card-image"
@@ -384,10 +389,10 @@
             </div>
             <div class="last-card">
               <img
-                src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/632b023a31836d27e3e3bab4_8721663_lock_security_protect_secure_icon%201%20(8).png"
+                src="Create-a-seamless-202507312137-unscreen.gif"
                 loading="lazy"
                 alt=""
-                class="lock-image"
+                class="parent-impact-gif"
               />
               <div class="description-wrapper">
                 <h3 class="left-card-heading dark-heading">
@@ -404,9 +409,10 @@
               data-w-id="80106579-d23f-c485-52b7-932280ac3f45"
               style="opacity: 0"
               class="card-wrap white-bg"
+              id="third"
             >
               <img
-                src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/632b0346f5762dd76c219ea1_9254052_certificate_degree_diploma_ribbon%20badge_quality_icon%201%20(3).png"
+                src="Recovery Gains.gif"
                 loading="lazy"
                 alt=""
                 class="certifacate-image"
@@ -422,13 +428,15 @@
                 </p>
               </div>
             </div>
+
             <div
               data-w-id="f776deb8-8804-a20b-1388-0a7745e05ee4"
               style="opacity: 0"
               class="last-card last-image"
+              id="fourth"
             >
               <img
-                src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/632b034598f8dcb8e04e871e_9053991_leisure_dice_gambling_gamble_casino_icon%201%20(3).png"
+                src="Everyday Engagement.gif"
                 loading="lazy"
                 alt=""
                 class="leisure-image"
@@ -488,18 +496,14 @@
             style="opacity: 0"
             class="section-description"
           >
-            Low engagement isn't just about missed homework, it's about ...
+            Low engagement isn't just about missed homework, it's about...
           </p>
         </div>
         <div class="kids-cards-wrap">
 
 
-
-
-
-
           <div class="kids-card-wrapper">
-            <img src="1cgg.jpg"
+            <img src="s4 Cognitive Gaps.jpg"
               loading="lazy"
               style="opacity: 0"
               data-w-id="d7e3e09a-4998-b208-cac1-f506a561045c"
@@ -516,7 +520,7 @@
             </div>
           </div>
           <div class="kids-card-wrapper">
-            <img src="2er.jpg"
+            <img src="s4 Support Deficit.jpg"
               loading="lazy"
               alt="child"
               class="kids-image"
@@ -527,7 +531,7 @@
             </div>
           </div>
           <div class="kids-card-wrapper">
-            <img src="3.jpg"
+            <img src="s4 Emotional Fallout.jpg"
               loading="lazy"
               alt="child"
               class="kids-image"
@@ -538,7 +542,7 @@
             </div>
           </div>
           <div class="kids-card-wrapper">
-            <img src="4.jpg"
+            <img src="s4 Retention Struggles.jpg"
               loading="lazy"
               alt="child"
               class="kids-image"
@@ -549,7 +553,7 @@
             </div>
           </div>
           <div class="kids-card-wrapper">
-            <img src="1cgg.jpg"
+            <img src="s4 Motivation Loss.jpg"
               loading="lazy"
               style="opacity: 0"
               data-w-id="d7e3e09a-4998-b208-cac1-f506a561045c"
@@ -566,7 +570,7 @@
             </div>
           </div>
           <div class="kids-card-wrapper">
-            <img src="2er.jpg"
+            <img src="s4 Help Avoidance.jpg"
               loading="lazy"
               alt="child"
               class="kids-image"
@@ -577,7 +581,7 @@
             </div>
           </div>
           <div class="kids-card-wrapper">
-            <img src="3.jpg"
+            <img src="s4 Parental Absence.jpg"
               loading="lazy"
               alt="child"
               class="kids-image"
@@ -588,7 +592,7 @@
             </div>
           </div>
           <div class="kids-card-wrapper">
-            <img src="4.jpg"
+            <img src="s4 Learning Flags.jpg"
               loading="lazy"
               alt="child"
               class="kids-image"
@@ -666,7 +670,7 @@
           <div class="card-wrapp">
             <div class="card-image-wrap">
               <img
-                src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/63315b609942dbfcf2753083_9213103_toy_play_game_kids_education_icon%201.webp"
+              src="sm pngs/Parent Power.png"
                 loading="lazy"
                 alt=""
                 class="first-image"
@@ -682,7 +686,7 @@
           <div class="card-wrapp">
             <div class="card-image-wrap">
               <img
-                src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/63315d7c199d5e4d9def4a91_9428043_basketball_game_sports_play_icon%203.webp"
+              src="sm pngs/Real Connection.png"
                 loading="lazy"
                 alt=""
                 class="first-image"
@@ -699,7 +703,7 @@
           <div class="card-wrapp">
             <div class="card-image-wrap">
               <img
-                src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/63315b5f29b5ad319ca83ef2_7923951_book_reading_school_education_library_icon%202.webp"
+              src="sm pngs/Simple Support.png"
                 loading="lazy"
                 alt=""
                 class="first-image"
@@ -715,7 +719,7 @@
           <div class="card-wrapp">
             <div class="card-image-wrap">
               <img
-                src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/63315b5ed50e5cb0deebc079_9213103_toy_play_game_kids_education_icon%201%20(1).webp"
+              src="sm pngs/Everyday Learning.png"
                 loading="lazy"
                 alt=""
                 class="first-image"
@@ -731,7 +735,7 @@
           <div class="card-wrapp">
             <div class="card-image-wrap">
               <img
-                src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/63315b5d2e4695673c8cc0fb_9428043_basketball_game_sports_play_icon%204.webp"
+              src="sm pngs/Bridging Gaps.png"
                 loading="lazy"
                 alt=""
                 class="first-image"
@@ -747,7 +751,7 @@
           <div class="card-wrapp">
             <div class="card-image-wrap">
               <img
-                src="https://cdn.prod.website-files.com/63297a6e0db55f763a6d4d9a/63315b5c24771a33d8879876_7923951_book_reading_school_education_library_icon%203.webp"
+              src="sm pngs/Lasting Impact.png"
                 loading="lazy"
                 alt=""
                 class="first-image"
@@ -846,7 +850,9 @@
                     
                     class="news-heading"
                   >
-                    Parental Involvement at Home
+                    Parental Involvement 
+                    <br>
+                    at Home
                   </h3>
                 </a>
                 <p
@@ -1191,10 +1197,10 @@
               aria-current="page"
               class="footer-brand w-nav-brand w--current"
               ><img
-                src="logov3.png"
+                src="logo.svg"
                 loading="lazy"
                 data-w-id="daf981fd-9b17-a0fb-7466-2c35634f2c78"
-                height="60"
+                height="50"
                 alt=""
                 class="footer-logo"
             /></a>
@@ -1341,19 +1347,20 @@
           "Are you actively involved in your child’s learning journey?",
           "Do you have the right tools to support their curiosity?",
         ],
-        typeSpeed: 50,
+        typeSpeed: 35,
         backSpeed: 20,
         backDelay: 2000,
         loop: true,
       });
       var typed2 = new Typed(".section-2-text", {
         strings:[
-          "something critical is missing: daily academic connection between parents and children."
+          "something critical is missing: daily academic connection between parents and children.",
+          // "new line"
         ],
-        typeSpeed: 50,
+        typeSpeed: 25,
         backSpeed: 20,
         backDelay: 2000,
-        loop: true,
+        loop: false,
         
       });
     </script>
@@ -1522,6 +1529,7 @@ function scrollRightRow(id) {
   });
 </script>
 
+
 <script>
   const menuButton = document.querySelector('#image-burger');
   const overlay = document.querySelector('#w-nav-overlay-0');
@@ -1531,34 +1539,36 @@ function scrollRightRow(id) {
 
   menuButton.addEventListener('click', () => {
     if (!isOpen) {
-      // Show and trigger transition
-      overlay.style.display = 'block';
+      overlay.style.display = 'block'; // Makes it visible for the transition
       overlay.style.visibility = 'visible';
 
-      // Allow next frame to apply visible styles
       requestAnimationFrame(() => {
         overlay.style.opacity = '1';
-        overlay.style.transform = 'translateX(0)';
+        overlay.style.transform = 'translateX(0)'; // Slides into view
       });
 
       isOpen = true;
     } else {
-
       overlay.style.opacity = '0';
-      overlay.style.transform = 'translateX(-100%)';
-      
+      overlay.style.transform = 'translateX(100%)'; // Slides out to right
+
+      setTimeout(() => {
+        overlay.style.display = 'none'; // Hides it completely after transition
+        overlay.style.visibility = 'hidden';
+      }, 300); // This timeout should match your transition duration
+
       isOpen = false;
     }
   });
 
-  // Also hide on close button
   closeButtons.forEach(button => {
     button.addEventListener('click', () => {
       overlay.style.opacity = '0';
-      overlay.style.transform = 'translateX(-100%)';
-      // overlay.style.visibility = 'hidden';
+      overlay.style.transform = 'translateX(100%)';
+
       setTimeout(() => {
         overlay.style.display = 'none';
+        overlay.style.visibility = 'hidden';
       }, 300);
 
       isOpen = false;
@@ -1584,6 +1594,34 @@ function scrollRightRow(id) {
 
 
 </script>
+
+<script>
+  const images = document.querySelectorAll('.collec-image-copy');
+  const headings = document.querySelectorAll('.news-heading');
+
+  images.forEach((image, index) => {
+    const heading = headings[index];
+
+    function addHoverEffect() {
+      image.style.transform = 'scale(1.05)';
+      heading.style.color = '#4dd192';
+      image.style.transition = 'transform 0.3s';
+      heading.style.transition = 'color 0.3s';
+    }
+
+    function removeHoverEffect() {
+      image.style.transform = 'scale(1)';
+      heading.style.color = '#22649E';
+    }
+
+    image.addEventListener('mouseenter', addHoverEffect);
+    image.addEventListener('mouseleave', removeHoverEffect);
+    heading.addEventListener('mouseenter', addHoverEffect);
+    heading.addEventListener('mouseleave', removeHoverEffect);
+  });
+</script>
+
+
 
 
 
