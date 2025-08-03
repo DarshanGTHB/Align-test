@@ -8372,7 +8372,7 @@ width: 130px;
 
 @media screen and (min-width: 991px){
   .home-banner-image {
-    right: -43px;
+    right: -15px;
   }
 }
 
@@ -12562,7 +12562,8 @@ width: 130px;
 
   .section.banner-image {
     background-position: 0 0, -550px -250px; 
-    background-image: url(""), url("big_blue.svg"); 
+    /* background-image: url(""), url("big_blue.svg");  */
+    background-image: url(""), url(""); 
     /* filter: opacity(0.2); */
     /* for 80 */
     /* background-position: 0 0, -570px -230px; 
@@ -13624,7 +13625,7 @@ width: 130px;
 }
 
 /* Hide scroll buttons on iPad Pro and smaller devices */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   #left-scroll-btn,
   #right-scroll-btn {
     display: none;   
