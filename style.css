@@ -8577,6 +8577,11 @@ width: 130px;
     /* margin-top: -40px; */
   }
 
+  /* .sec-2-cards:hover .card-image{
+    background-color: var(--primary);
+    transform: scale(1.05);
+  } */
+
   .right-bottom-pink-circle {
     background-color: var(--primary);
     border-radius: 50px;
