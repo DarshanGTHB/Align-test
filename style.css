@@ -9824,6 +9824,8 @@ width: 130px;
     font-size: 42px;
   }
 
+
+
   .section {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -10350,9 +10352,12 @@ width: 130px;
 
   .main-title {
     max-width: 400px;
-    height: 220px !important;
+    min-height: 220px !important;
   }
 
+  #as-a-parent{
+    height: auto;
+  }
   .left-block-banner {
     width: 56%;
     margin-left: auto;
@@ -10377,7 +10382,7 @@ width: 130px;
   }
 
   .section-wrapper {
-    grid-row-gap: 100px;
+    grid-row-gap: 30px;
     flex-wrap: wrap;
   }
 
@@ -13451,7 +13456,7 @@ width: 130px;
 
 #as-a-parent {
   font-size: 40px;
-  height: 180px;
+  min-height: 180px;
 }
 
 #hero-para {
