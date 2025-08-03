@@ -5590,7 +5590,7 @@ width: 130px;
 
 .link-block-copy {
   border-radius: 25px;
-  height: 170px;
+  /* height: 100%; */
   overflow: hidden;
 }
 
@@ -8362,6 +8362,22 @@ width: 130px;
   display: inline-block;
 }
 
+
+@media screen and (min-width: 0){
+  .home-banner-image {
+  
+    right: -15px;
+  }
+}
+
+@media screen and (min-width: 991px){
+  .home-banner-image {
+    right: -43px;
+  }
+}
+
+
+
 @media screen and (min-width: 1280px) {
   h1 {
     font-size: 70px;
@@ -8631,7 +8647,7 @@ width: 130px;
     max-width: none;
     height: 630px;
     position: absolute;
-    right: -56px;
+    right: -125px;
   }
 
   .section-description.width {
@@ -9815,6 +9831,9 @@ width: 130px;
   }
 }
 
+
+
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 48px;
@@ -9824,7 +9843,7 @@ width: 130px;
     font-size: 42px;
   }
 
-
+    
 
   .section {
     padding-top: 80px;
@@ -11944,7 +11963,7 @@ width: 130px;
   .collect-event-wrapper {
     grid-row-gap: 10px;
     width: 47%;
-    height: 450px !important;
+    height: 470px !important;
   }
 
   .collection-list-2 {
@@ -12151,7 +12170,7 @@ width: 130px;
   }
 
   .collec-image-copy {
-    height: 360px;
+    height: 220px;
   }
 
   .pink-left-circle {
@@ -12542,9 +12561,12 @@ width: 130px;
   }
 
   .section.banner-image {
-    background-position: 0 0, -50%;
+    background-position: 0 0, -500px -200px;
+
     background-size: auto, cover;
-    background-image: url(""), url("");
+    /* background-image: url(""), url(""); */
+    background-image: url(""), url("big_blue.svg");
+    
 
   }
 
@@ -13698,3 +13720,14 @@ width: 130px;
 }
 
 
+#form-sec{
+  /* setting backgrounf image */
+  background-image: url("Form\ Back\ Ground.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+#form-sec .base-container{
+  align-items: end;
+}
