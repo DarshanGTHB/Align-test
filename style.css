@@ -2384,7 +2384,7 @@ blockquote {
 }
 
 .section.banner-image {
-  background-image: url(""), url("Big\ Dark\ Blue.png");
+  background-image: url(""), url("big_green.svg");
   background-position: 0 0, 167% 0;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, 69%;
@@ -11893,6 +11893,7 @@ width: 130px;
 
   .home-banner-image {
     width: 100%;
+    transform: scale(1.1);
   }
 
   .kids-card-wrapper {
@@ -12543,6 +12544,7 @@ width: 130px;
   .section.banner-image {
     background-position: 0 0, -50%;
     background-size: auto, cover;
+    background-image: url(""), url("");
 
   }
 
@@ -13694,3 +13696,5 @@ width: 130px;
 .fa-brands, .fab{
   color: var(--heading-clr);
 }
+
+
