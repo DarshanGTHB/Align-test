@@ -10,15 +10,15 @@
     <meta charset="utf-8" />
     <title>Align EdTech</title>
     <meta
-      content="KinderGarten 128 -  Webflow HTML website template"
+      content=""
       property="og:title"
     />
     <meta
-      content="KinderGarten 128 -  Webflow HTML website template"
+      content=""
       property="twitter:title"
     />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Webflow" name="generator" />
+    <meta content="" name="generator" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link
@@ -1105,7 +1105,7 @@
       <h2 class="section-title">Do you <span class="pink-heading">have questions?</span></h2>
     </div>
     <div class="form-block-wrapper">
-      <div class="form-block w-form">h
+      <div class="form-block w-form">
         <form id="wf-form-Email-Formm" class="form">
           <div class="left-form-wrapper">
             <div class="form-label-wrapper">
@@ -1125,11 +1125,53 @@
               <input class="form-text w-input" maxlength="10" name="phone" id="phone" placeholder="" type="tel"  />
               <div class="error-message" id="phone-error"></div>
             </div>
+
+
+            <!-- <div class="bottom-form-wrapper">
+  <label for="age" class="form-field-label">I Am A</label>
+  <select class="form-text w-input" name="age" id="age">
+    <option value="" disabled selected>Select one</option>
+    <option value="student">Student</option>
+    <option value="parent">Parent</option>
+    <option value="teacher">Teacher</option>
+    <option value="professional">Professional</option>
+  </select>
+  <div class="error-message" id="age-error"></div>
+</div> -->
             <div class="bottom-form-wrapper">
-              <label for="age" class="form-field-label">Age of Child</label>
+  <label for="age" class="form-field-label">I Am A</label>
+  <select
+    name="age"
+    id="age"
+    class="form-text w-input"
+    style="
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background: white url('data:image/svg+xml;utf8,<svg fill=\'%23333\' height=\'16\' viewBox=\'0 0 24 24\' width=\'16\' xmlns=\'http://www.w3.org/2000/svg\'><path d=\'M7 10l5 5 5-5z\'/></svg>') no-repeat right 12px center;
+      background-size: 16px 16px;
+      padding-right: 40px;
+      /* border: 1px solid #ccc; */
+      border-radius: 30px;
+    "
+  >
+    <option value="" disabled selected>Select one</option>
+    <option value="student">Student</option>
+    <option value="parent">Parent</option>
+    <option value="teacher">Teacher</option>
+    <option value="professional">Professional</option>
+  </select>
+  <div class="error-message" id="select-error"></div>
+</div>
+
+            <!-- <div class="bottom-form-wrapper">
+              <label for="age" class="form-field-label">I Am A </label>
               <input class="form-text w-input" maxlength="3" name="age" id="age" placeholder="" type="text"  />
               <div class="error-message" id="age-error"></div>
-            </div>
+            </div> -->
+
+
+
           </div>
           <div class="comments-wrapper">
             <label for="comments" class="form-field-label">Comments</label>

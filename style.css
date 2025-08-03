@@ -12561,14 +12561,24 @@ width: 130px;
   }
 
   .section.banner-image {
-    background-position: 0 0, -500px -200px;
+    background-position: 0 0, -550px -250px; 
+    background-image: url(""), url("big_blue.svg"); 
+    /* filter: opacity(0.2); */
+    /* for 80 */
+    /* background-position: 0 0, -570px -230px; 
+    background-image: url(""), url("Untitled\ \(4\)\ 60.svg"); */
 
-    background-size: auto, cover;
+    /* background-size: auto, cover; */
     /* background-image: url(""), url(""); */
-    background-image: url(""), url("big_blue.svg");
-    
-
+    /* background-image: url(""), url("big_blue_80.svg"); */
+  
   }
+
+.section.banner-image::before {
+  filter: opacity(0.2);
+}
+
+
 
   .grid-system-wrapper {
     flex-direction: row;
