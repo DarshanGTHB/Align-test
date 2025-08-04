@@ -5017,7 +5017,8 @@ blockquote {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: flex-start;
   margin-top: 50px;
   display: flex;
@@ -13868,12 +13869,38 @@ blockquote {
 
 @media (max-width: 1280px) {
   .kids-wrapper {
-    height: 350px;
+    height: 300px;
+  }
+}
+@media (max-width: 1190px) {
+  .kids-wrapper {
+    height: 330px;
+  }
+}
+@media (max-width: 1130px) {
+  .kids-wrapper {
+    height: 370px;
   }
 }
 @media (max-width: 991px) {
   .kids-wrapper {
     height: 250px;
+  }
+}
+@media (max-width: 767px) {
+  .kids-wrapper {
+    height: 290px;
+  }
+}
+@media (max-width: 680px) {
+  .kids-wrapper {
+    height: 340px;
+  }
+}
+@media (max-width: 544px) {
+  .kids-wrapper {
+    height: 270px;
+    width: 350px;
   }
 }
 
